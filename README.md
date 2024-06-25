@@ -14,8 +14,8 @@
 - [x] Criar a estrutura básica de arquivos e pastas (index.html, styles.css, script.js)
 
 #### Navegação
-- [ ] Criar navegação com os links logo, Página principal, Sobre mim, Projetos, Contatos e ícones de redes sociais (GitHub e LinkedIn)
-- [ ] Estilizar a barra de navegação (CSS)
+- [x] Criar navegação com os links logo, Página principal, Sobre mim, Projetos, Contatos e ícones de redes sociais (GitHub e LinkedIn)
+- [x] Estilizar a barra de navegação (CSS) mobile
 - [ ] Testar responsividade da navegação
 
 #### Página Principal
