@@ -11,7 +11,7 @@
 #### Estrutura Básica
 - [x] Configurar o repositório no GitHub
 - [x] Configurar o ambiente de desenvolvimento
-- [ ] Criar a estrutura básica de arquivos e pastas (index.html, styles.css, script.js)
+- [x] Criar a estrutura básica de arquivos e pastas (index.html, styles.css, script.js)
 
 #### Navegação
 - [ ] Criar navegação com os links logo, Página principal, Sobre mim, Projetos, Contatos e ícones de redes sociais (GitHub e LinkedIn)
