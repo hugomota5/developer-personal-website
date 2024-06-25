@@ -9,8 +9,8 @@
 ### Lista de tarefas
 
 #### Estrutura Básica
-- [ ] Configurar o repositório no GitHub
-- [ ] Configurar o ambiente de desenvolvimento
+- [x] Configurar o repositório no GitHub
+- [x] Configurar o ambiente de desenvolvimento
 - [ ] Criar a estrutura básica de arquivos e pastas (index.html, styles.css, script.js)
 
 #### Navegação
@@ -66,5 +66,6 @@
 - [ ] Testar o site após o deploy
 
 #### Manutenção
+- [ ] Melhorar o SEO do site
 - [ ] Monitorar o site para detectar problemas
 - [ ] Atualizar o site conforme necessário
