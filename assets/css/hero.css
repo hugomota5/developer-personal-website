@@ -1,6 +1,7 @@
 /* HERO */
 .hero__content {
-  padding-top: 4rem;
+  padding-top: 5rem;
+  text-align: center;
 
 }
 
@@ -44,7 +45,7 @@
   row-gap: 1rem;
 }
 
-.hero__social__link {
+.hero__social-link {
   padding: 0 0.3rem;
   background-color: var(--color-highlight);
   border: 1px var(--color-stroke) solid;
@@ -54,7 +55,7 @@
   transition: background-color 0.3s;
 }
 
-.hero__social__link:hover {
+.hero__social-link:hover {
   background-color: var(--color-main);
 }
 
@@ -70,12 +71,12 @@
   margin-top: 0.6rem;
 }
 
-.hero__info__description {
+.hero__description {
   margin-top: 0.6rem;
   margin-bottom: 1.5rem;
 }
 
-.hero__info__description>b {
+.hero__description>b {
   color: var(--color-headline);
 }
 
