@@ -1,0 +1,23 @@
+/* FOR LARGE DEVICES */
+
+.container {
+  margin-inline: auto;
+}
+
+.header__content {
+  height: calc(var(--header-height) + 2rem);
+  column-gap: 4rem;
+}
+
+.nav__close,
+.nav__toggle {
+  display: none;
+}
+
+.nav__list {
+  flex-direction: row;
+}
+
+.nav__link {
+  font-size: 1rem;
+}

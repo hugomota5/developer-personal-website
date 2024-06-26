@@ -1,74 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="description" content="Site pessoal de Hugo Mota" />
-    <meta name="keywords" content="HTML, CSS, JavaScript, Front-end" />
-    <meta name="author" content="Hugo Mota" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- REMIXICON -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <!-- LINKS CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Hugo Mota Personal Website</title>
-  </head>
-  <body class="body">
-    <!-- HEADER AND NAVIGATION -->
-    <header class="header" id="idHeader">
-      <div class="header__content container">
-        <!-- LOGO -->
-        <a href="#" class="header__logo">Hugo Mota</a>
-        <!-- NAVIGATION -->
-        <nav class="header__nav">
-          <div class="nav__content nav__menu" id="nav-menu">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a href="" class="nav__link">Página Inicial</a>
-              </li>
-              <li class="nav__item">
-                <a href="" class="nav__link">Sobre mim</a>
-              </li>
-              <li class="nav__item">
-                <a href="" class="nav__link">Projetos</a>
-              </li>
-              <li class="nav__item">
-                <a href="" class="nav__link">Contatos</a>
-              </li>
-            </ul>
-            <!-- CLOSE BUTTON -->
-            <div class="nav__close" id="nav-close">
-              <i class="ri-close-fill"></i>
-            </div>
-          </div>
-          <div class="nav__dark-theme-content">
-            <i class="ri-contrast-fill"></i>
-          </div>
-          <div class="nav__toggle-content">
-            <div class="nav__toggle" id="nav-toggle">
-              <i class="ri-menu-3-fill"></i>
-            </div>
-          </div>
-        </nav>
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Site pessoal de Hugo Mota" />
+  <meta name="keywords" content="HTML, CSS, JavaScript, Front-end" />
+  <meta name="author" content="Hugo Mota" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- REMIXICON -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <!-- LINKS CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <!-- MEDIA QUERIES -->
+
+  <!-- SERVED TO SCREENS THAT ARE AT LEAST 992PX/62REM -->
+  <link rel="stylesheet" href="./assets/css/large.css" media="(min-width: 62rem)" />
+  <!-- Served to screens that are at least 20em wide -->
+  <link rel="stylesheet" href="./assets/css/small.css" media="(max-width: 62rem)" />
+  <title>Hugo Mota Personal Website</title>
+</head>
+
+<body class="body">
+  <!-- HEADER AND NAVIGATION -->
+  <header class="header" id="idHeader">
+    <div class="header__content container">
+      <!-- LOGO -->
+      <a href="#" class="header__logo">Hugo Mota</a>
+      <!-- NAVIGATION -->
+      <nav class="header__nav">
+        <div class="nav__content nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link"><i class="ri-home-2-fill nav__icon"></i>Página Inicial</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link"><i class="ri-profile-fill nav__icon"></i>Sobre mim</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link"><i class="ri-file-settings-fill nav__icon"></i>Projetos</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link"><i class="ri-contacts-fill nav__icon"></i>Contatos</a>
+            </li>
+          </ul>
+          <!-- CLOSE BUTTON -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-fill"></i>
+          </div>
+        </div>
+        <div class="nav__dark-theme-content">
+          <i class="ri-contrast-fill"></i>
+        </div>
+        <div class="nav__toggle-content">
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-3-fill"></i>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- HEADER AND NAVIGATION - END -->
+  <link rel="stylesheet" href="./assets/css/hero.css">
+  <!-- MAIN -->
+  <main class="main">
+    <section class="main__hero section" id="hero">
+      <div class="hero__content container grid">
+        <div class="hero__perfil">
+          <div class="hero__figure">
+            <img class="hero__image" src="./assets/img/avatar-freepik.jpg" alt="Imagem de Perfil" srcset="" />
+            <div class="hero__shadow"></div>
+          </div>
+          <div div class="hero__social">
+            <a href="#" target="_blank" class="hero__social__link"><i class="ri-github-fill hero__social__icon"></i></a>
+            <a href="#" target="_blank" class="hero__social__link"><i
+                class="ri-linkedin-box-fill hero__social__icon"></i></a>
+          </div>
+        </div>
+
+        <div class="hero__info">
+          <h1 class="hero__salute">Olá👋, eu sou <span>Hugo.</span> </h1>
+          <h3>Seja bem vindo!</h3>
+          <p class="hero__info__description">
+            Estudante de <b>Análise e Desenvolvimento de Sistemas</b> e Técnico em Informática, em formação para se
+            tornar
+            <b>Desenvolvedor Web</b>, criando sites acessíveis e intuitivos. Pretendo usar este site como minha "base"
+            na
+            internet para compartilhar ideias sobre desenvolvimento web e meus hobbies.
+          </p>
+          <a href="#" class="hero__scroll">
+            <div class="hero__scroll-box"><i class="ri-scroll-to-bottom-fill"></i></div>
+            <span class="hero__scroll-text">Rolar para baixo</span>
+          </a>
+        </div>
       </div>
-    </header>
-    <!-- HEADER AND NAVIGATION - END -->
+    </section>
+  </main>
 
-    <!-- MAIN -->
+  <!-- HOME -->
+  <!-- ABOUT -->
+  <!-- PROJECTS -->
+  <!-- CONTACT -->
+  <!-- MAIN - END -->
 
-    <!-- HOME -->
-    <!-- ABOUT -->
-    <!-- PROJECTS -->
-    <!-- CONTACT -->
-    <!-- MAIN - END -->
+  <!-- FOOTER -->
+  <!-- FOOTER - END -->
 
-    <!-- FOOTER -->
-    <!-- FOOTER - END -->
+  <!-- SCRIPTS -->
+  <script src="./assets/js/main.js"></script>
+</body>
 
-    <!-- SCRIPTS -->
-    <script src="./assets/js/main.js"></script>
-  </body>
 </html>
