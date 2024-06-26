@@ -21,3 +21,11 @@ const linkAction = () => {
 };
 navLink.forEach((n) => n.addEventListener("click", linkAction));
 
+// SHADOW HEADER
+const shadowHeader = () => {
+  const header = document.getElementById("idHeader");
+  this.scrollY >= 50
+    ? header.classList.add("header-shadow")
+    : header.classList.remove("header-shadow");
+};
+window.addEventListener("scroll", shadowHeader);
