@@ -1,0 +1,8 @@
+.section {
+    padding-block: 3rem 2rem;
+}
+/* HERO */
+
+.hero__content {
+    flex-wrap: wrap;
+}

@@ -1,5 +1,5 @@
 /* ABOUT */
-.main__about {
-    /* padding-top: 5rem; */
-    background-color: var(--color-secondary);
+.about__perfil {
+    row-gap: 2rem;
+    display: contents;
 }

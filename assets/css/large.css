@@ -4,11 +4,6 @@
   margin-inline: auto;
 }
 
-.header__content {
-  height: calc(var(--header-height) + 2rem);
-  column-gap: 4rem;
-}
-
 .nav__close,
 .nav__toggle {
   display: none;
@@ -20,4 +15,15 @@
 
 .nav__link {
   font-size: 1rem;
+}
+.header__content {
+  height: calc(var(--header-height) + 2rem);
+  column-gap: 4rem;
+}
+
+.hero__salute {
+  display: flex;
+  align-items: baseline;
+  column-gap: 0.5rem;
+  font-size: 1.7rem;
 }

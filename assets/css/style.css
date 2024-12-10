@@ -75,7 +75,7 @@ img {
     left: 0;
     background-color: var(--body-color);
     /* padding: .5rem 0; */
-    border-bottom: 1px var(--color-stroke) solid;
+    /* border-bottom: 1px var(--color-stroke) solid; */
     z-index: 100;
     transition: box-shadow 0.4s;
 }

@@ -1,124 +1,190 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Site pessoal de Hugo Mota" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Front-end" />
+    <meta name="author" content="Hugo Mota" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="description" content="Site pessoal de Hugo Mota" />
-  <meta name="keywords" content="HTML, CSS, JavaScript, Front-end" />
-  <meta name="author" content="Hugo Mota" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- REMIXICON -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- LINKS CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <!-- REMIXICON -->
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
-  <!-- LINKS CSS -->
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <!-- MEDIA QUERIES -->
+    <link rel="stylesheet" href="./assets/css/about.css" />
 
-  <!-- SERVED TO SCREENS THAT ARE AT LEAST 992PX/62REM -->
-  <link rel="stylesheet" href="./assets/css/large.css" media="(min-width: 62rem)" />
-  <!-- Served to screens that are at least 20em wide -->
-  <link rel="stylesheet" href="./assets/css/small.css" media="(max-width: 62rem)" />
-  <title>Hugo Mota Personal Website</title>
-</head>
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <!-- MEDIA QUERIES -->
 
-<body class="body">
-  <!-- HEADER AND NAVIGATION -->
-  <header class="header" id="idHeader">
-    <div class="header__content container">
-      <!-- LOGO -->
-      <a href="#" class="header__logo">Hugo Mota</a>
-      <!-- NAVIGATION -->
-      <nav class="header__nav">
-        <div class="nav__content nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#home" class="nav__link"><i class="ri-home-2-fill nav__icon"></i>Página Inicial</a>
-            </li>
-            <li class="nav__item">
-              <a href="" class="nav__link"><i class="ri-profile-fill nav__icon"></i>Sobre mim</a>
-            </li>
-            <li class="nav__item">
-              <a href="" class="nav__link"><i class="ri-file-settings-fill nav__icon"></i>Projetos</a>
-            </li>
-            <li class="nav__item">
-              <a href="" class="nav__link"><i class="ri-contacts-fill nav__icon"></i>Contatos</a>
-            </li>
-          </ul>
-          <!-- CLOSE BUTTON -->
-          <div class="nav__close" id="nav-close">
-            <i class="ri-close-fill"></i>
+    <!-- SERVED TO SCREENS THAT ARE AT LEAST 992PX/62REM -->
+    <link
+      rel="stylesheet"
+      href="./assets/css/large.css"
+      media="(min-width: 62rem)"
+    />
+    <!-- Served to screens that are at least 20em wide -->
+    <link
+      rel="stylesheet"
+      href="./assets/css/small.css"
+      media="(max-width: 62rem)"
+    />
+    <title>Hugo Mota Personal Website</title>
+  </head>
+
+  <body class="body">
+    <!-- HEADER AND NAVIGATION -->
+    <header class="header" id="idHeader">
+      <div class="header__content container">
+        <!-- LOGO -->
+        <a href="#" class="header__logo">Hugo Mota</a>
+        <!-- NAVIGATION -->
+        <nav class="header__nav">
+          <div class="nav__content nav__menu" id="nav-menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#home" class="nav__link"
+                  ><i class="ri-home-2-fill nav__icon"></i>Página Inicial</a
+                >
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__link"
+                  ><i class="ri-profile-fill nav__icon"></i>Sobre mim</a
+                >
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__link"
+                  ><i class="ri-file-settings-fill nav__icon"></i>Projetos</a
+                >
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__link"
+                  ><i class="ri-contacts-fill nav__icon"></i>Contatos</a
+                >
+              </li>
+            </ul>
+            <!-- CLOSE BUTTON -->
+            <div class="nav__close" id="nav-close">
+              <i class="ri-close-fill"></i>
+            </div>
           </div>
-        </div>
-        <div class="nav__dark-theme-content">
-          <i class="ri-contrast-fill"></i>
-        </div>
-        <div class="nav__toggle-content">
-          <div class="nav__toggle" id="nav-toggle">
-            <i class="ri-menu-3-fill"></i>
+          <div class="nav__dark-theme-content">
+            <i class="ri-contrast-fill"></i>
           </div>
-        </div>
-      </nav>
-    </div>
-  </header>
-  <!-- HEADER AND NAVIGATION - END -->
-  <link rel="stylesheet" href="./assets/css/hero.css">
-  <!-- MAIN -->
-   
-  <main class="main">
-    <!-- HERO -->
-    <section class="main__hero section" id="hero">
-      <div class="hero__content container grid">
-        <div class="hero__perfil"> <!-- caixa -->
-          <div class="hero__figure"> <!-- conteúdo -->
-            <img class="hero__image" src="./assets/img/avatar-freepik.jpg" alt="Imagem de Perfil" srcset="" />
+          <div class="nav__toggle-content">
+            <div class="nav__toggle" id="nav-toggle">
+              <i class="ri-menu-3-fill"></i>
+            </div>
           </div>
-          <div class="hero__social">
-            <a href="#" target="_blank" class="hero__social-link"><i class="ri-github-fill hero__social-icon"></i></a>
-            <a href="#" target="_blank" class="hero__social-link"><i class="ri-linkedin-box-fill hero__social-icon"></i></a>
-          </div>
-        </div>
-
-        <div class="hero__info">
-          <h1 class="hero__salute">Olá👋, meu nome é <span>Hugo.</span> </h1>
-          <p class="hero__description">
-            Sou estudante de <b>Análise e Desenvolvimento de Sistemas</b> e Técnico em Informática, estou em formação para se
-            tornar
-            <b>Desenvolvedor Web</b>, criando sites acessíveis e intuitivos. Pretendo usar este site como minha "base"
-            na
-            internet para compartilhar ideias sobre desenvolvimento web e meus hobbies.
-          </p>
-          <a href="#" class="hero__scroll">
-            <div class="hero__scroll-box"><i class="ri-scroll-to-bottom-fill"></i></div>
-            <span class="hero__scroll-text">Rolar para baixo</span>
-          </a>
-        </div>
+        </nav>
       </div>
-    </section>
-    <!-- ABOUT -->
-    <section class="main__about section" id="about">
-      <div class="about__content container grid">
-        <h2 class="about__title section__title">
-          Sobre mim.
-        </h2>
-        <div class="about__perfil">
-          
+    </header>
+    <!-- HEADER AND NAVIGATION - END -->
+    <link rel="stylesheet" href="./assets/css/hero.css" />
+    <!-- MAIN -->
+
+    <main class="main">
+      <!-- HERO -->
+      <section class="main__hero section" id="hero">
+        <div class="hero__content container grid">
+          <div class="hero__perfil">
+            <!-- caixa -->
+            <div class="hero__figure">
+              <!-- conteúdo -->
+              <img
+                class="hero__image"
+                src="./assets/img/avatar-freepik.jpg"
+                alt="Imagem de Perfil"
+                srcset=""
+              />
+            </div>
+            <div class="hero__social">
+              <a href="#" target="_blank" class="hero__social-link"
+                ><i class="ri-github-fill hero__social-icon"></i
+              ></a>
+              <a href="#" target="_blank" class="hero__social-link"
+                ><i class="ri-linkedin-box-fill hero__social-icon"></i
+              ></a>
+            </div>
+          </div>
+          <div class="hero__info">
+            <h1 class="hero__salute">
+              Olá👋, meu nome é <span>Hugo Mota.</span>
+            </h1>
+            <h2 class="hero__specialty">Desenvolvedor Front-End</h2>
+            <p class="hero__description">
+              Transformo ideias em sites simples e intuitivos, feitos para
+              todos.
+            </p>
+            <a href="#" class="hero__scroll">
+              <div class="hero__scroll-box">
+                <i class="ri-scroll-to-bottom-fill"></i>
+              </div>
+              <span class="hero__scroll-text">Rolar para baixo</span>
+            </a>
+          </div>
         </div>
+      </section>
+      <!-- ABOUT -->
+      <section class="main__about section" id="about">
+        <div class="about__content container grid">
+          <h2 class="about__title section__title">Sobre mim</h2>
+          <div class="about__perfil">
+            <p>
+              Me chamo Hugo Mota, sou estudante de
+              <b>Análise e Desenvolvimento de Sistemas</b> e Técnico em
+              Informática, apaixonado por programação e criação de soluções
+              digitais.
+            </p>
+            <p>
+              Estou me especializando como <b>Desenvolvedor Front-End</b>,
+              focado em criar sites acessíveis, funcionais e fáceis de usar. Meu
+              objetivo é garantir que cada pessoa possa navegar e interagir sem
+              complicações.
+            </p>
+            <p>
+              Este portfólio foi uma oportunidade para fortalecer minhas
+              habilidades em <b>HTML, CSS e JavaScript</b>, ao mesmo tempo em
+              que enfrento novos desafios e aprendo continuamente.
+            </p>
+            <p>
+              Acredito que cada projeto é mais do que código; é uma chance de
+              entregar algo significativo, aprender e crescer como profissional.
+            </p>
+          </div>
+        </div>
+      </section>
 
-      </div>
-    </section>
-  </main>
+      <!-- CONTACT -->
+      <section class="main__contact section">
+        <div class="contact__content container grid">
+          <h2 class="contact__title section__title">Contato</h2>
+          <div class="contact__message">
+            <p>
+              Quer entrar em contato? Sinta-se à vontade para me enviar uma
+              mensagem.
+            </p>
+          </div>
+          <div class="contact__button">
+            <a href="#home" class="contact__link"
+              ><i class="ri-mail-line"></i>hugojcmota@gmail.com</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
 
-  
-  
-  <!-- PROJECTS -->
-  <!-- CONTACT -->
-  <!-- MAIN - END -->
+    <!-- PROJECTS -->
 
-  <!-- FOOTER -->
-  <!-- FOOTER - END -->
+    <!-- MAIN - END -->
 
-  <!-- SCRIPTS -->
-  <script src="./assets/js/main.js"></script>
-</body>
+    <!-- FOOTER -->
+    <!-- FOOTER - END -->
 
+    <!-- SCRIPTS -->
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
