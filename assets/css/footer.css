@@ -1,0 +1,24 @@
+/* FOOTER */
+.footer {
+    text-align: center;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer ul li{
+    font-size: 28px;
+    padding: 0.5rem;
+}
+
+a.footer__link {
+    color: var(--body-color-alt);
+    transition: color 0.3s;
+}
+
+.footer__link:hover {
+    color: var(--color-main);
+}

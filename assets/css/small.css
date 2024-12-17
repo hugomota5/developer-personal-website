@@ -6,3 +6,56 @@
 .hero__content {
     flex-wrap: wrap;
 }
+
+/* .hero__perfil {
+  /* left: 2rem;
+} */
+
+.hero__scroll {
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+  }
+  
+  .hero__scroll-box {
+    width: 36px;
+    height: 36px;
+    place-items: center;
+    display: grid;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: var(--color-stroke);
+    background-color: var(--color-highlight);
+    overflow: hidden;
+    transition: backgroud-color .4s;
+  }
+  
+  .hero__scroll-box:hover {
+    background-color: var(--color-main);
+  }
+  
+  .hero__scroll-box i{
+    animation: scroll-down 3s infinite;
+  }
+  
+  .hero__scroll-text {
+    display: none;
+  }
+  
+  /* ANIMATE SCROLL ICON */
+  @keyframes scroll-down {
+    0% {
+      transform: translateY(-1rem);
+      opacity: 0;
+    }
+    
+    50% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    
+    100% {
+      transform: translateY(.6rem);
+      opacity: 0;
+    }
+  }

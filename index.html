@@ -17,20 +17,23 @@
 
     <link rel="stylesheet" href="./assets/css/about.css" />
 
-    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="./assets/css/contact.css" />
+
+    <link rel="stylesheet" href="./assets/css/footer.css" />
     <!-- MEDIA QUERIES -->
 
-    <!-- SERVED TO SCREENS THAT ARE AT LEAST 992PX/62REM -->
+    <!-- SERVED TO SCREENS THAT ARE AT LEAST 1024PX/64REM -->
     <link
       rel="stylesheet"
       href="./assets/css/large.css"
-      media="(min-width: 62rem)"
+      media="(min-width: 64rem)"
     />
+
     <!-- Served to screens that are at least 20em wide -->
     <link
       rel="stylesheet"
       href="./assets/css/small.css"
-      media="(max-width: 62rem)"
+      media="(max-width: 64rem)"
     />
     <title>Hugo Mota Personal Website</title>
   </head>
@@ -102,10 +105,16 @@
               />
             </div>
             <div class="hero__social">
-              <a href="#" target="_blank" class="hero__social-link"
+              <a
+                href="https://github.com/hugomota5"
+                target="_blank"
+                class="hero__social-link"
                 ><i class="ri-github-fill hero__social-icon"></i
               ></a>
-              <a href="#" target="_blank" class="hero__social-link"
+              <a
+                href="https://www.linkedin.com/in/hugo-mota-881500308/"
+                target="_blank"
+                class="hero__social-link"
                 ><i class="ri-linkedin-box-fill hero__social-icon"></i
               ></a>
             </div>
@@ -114,7 +123,7 @@
             <h1 class="hero__salute">
               Olá👋, meu nome é <span>Hugo Mota.</span>
             </h1>
-            <h2 class="hero__specialty">Desenvolvedor Front-End</h2>
+            <h2 style="display: none;" class="hero__specialty">Desenvolvedor Front-End</h2>
             <p class="hero__description">
               Transformo ideias em sites simples e intuitivos, feitos para
               todos.
@@ -169,19 +178,61 @@
             </p>
           </div>
           <div class="contact__button">
-            <a href="#home" class="contact__link"
+            <a href="mailto:hugojcmota@gmail.com" class="contact__link"
               ><i class="ri-mail-line"></i>hugojcmota@gmail.com</a
             >
           </div>
         </div>
       </section>
     </main>
-
-    <!-- PROJECTS -->
-
     <!-- MAIN - END -->
 
     <!-- FOOTER -->
+    <footer class="footer section">
+      <div class="footer__content container grid">
+        <p>
+          <a href="#" class="footer__link">Sem direitos autorais de </a>Hugo
+          Mota. Última construção em 12 de dezembro de 2024.
+        </p>
+        <p>
+          Construído com
+          <a
+            href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+            class="footer__link"
+            >HTML</a
+          >
+          e
+          <a
+            href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"
+            class="footer__link"
+            >CSS</a
+          >. Veja o código-fonte no
+          <a
+            href="https://github.com/hugomota5/developer-personal-website"
+            class="footer__link"
+            >GitHub.</a
+          >
+        </p>
+        <ul>
+          <li>
+            <a
+              href="https://github.com/hugomota5"
+              target="_blank"
+              class="hero__social-link"
+              ><i class="ri-github-fill hero__social-icon"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/hugo-mota-881500308/"
+              target="_blank"
+              class="hero__social-link"
+              ><i class="ri-linkedin-box-fill hero__social-icon"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
     <!-- FOOTER - END -->
 
     <!-- SCRIPTS -->

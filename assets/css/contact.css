@@ -4,17 +4,17 @@
     border: 1px var(--color-stroke) solid;
     border-radius: 5px;
     color: var(--color-stroke);
+    max-width: fit-content;
+    transition: background-color 0.3s;
 }
+.contact__button:hover {
+    background-color: var(--color-main);
+  }
 
 .contact__link {
-    position: relative;
+    display: flex;
+    align-items: center;
+    column-gap: .3rem;
     color: var(--color-stroke);
-    display: block;
-    padding: 1rem 1rem;
-    font-size: 1.3rem;
-    transition: color 0.3s;
-}
-
-.contact__link:hover {
-    color: var(--color-main);
+    padding: 0.3rem 1rem;
 }
